@@ -30,7 +30,7 @@ const startTimer = () => {
 
     const resetTimer = () => {
         clearInterval(interval);
-        timeLeft= 3000;
+        timeLeft= 3600;
         updateTimer();
     }
     start.addEventListener("click",startTimer);
