@@ -3,7 +3,7 @@ const stop = document.getElementById("stop")
 const reset = document.getElementById("reset")
 const timer = document.getElementById("timer")
 
-let timeLeft = 3000;
+let timeLeft = 3600;
 let interval;
 
 const updateTimer = () => {
